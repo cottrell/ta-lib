@@ -1,4 +1,5 @@
-VERSION?=2.7
+# use whatever python and nosetests are in current env
+VERSION?=''
 
 build:
 	python$(VERSION) setup.py build_ext --inplace
@@ -16,4 +17,4 @@ perf:
 	python$(VERSION) tools/perf_talib.py
 
 test:
-	LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH} nosetests-$(VERSION)
+	LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH} nosetests
