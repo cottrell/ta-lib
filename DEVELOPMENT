@@ -1,7 +1,9 @@
 #################
-# updated for local 'develop' and testing.
-# tested on
+# Updated to enable easy local 'develop' and testing.
+# Tested on:
 # * Darwin MacBook-Pro.lan 14.0.0 Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64 x86_64
+# 	* Python 3.4.2 :: Anaconda 2.1.0 (x86_64)
+# 	* Python 2.7.8 :: Anaconda 2.0.1 (x86_64)
 # To develop/test:
 . ~/anaconda/bin/activate py34 # (for example) to activate desired python
 git clone https://github.com/cottrell/ta-lib.git
