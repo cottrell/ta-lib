@@ -1,3 +1,17 @@
+#################
+# updated for local 'develop' and testing.
+# tested on
+# * Darwin MacBook-Pro.lan 14.0.0 Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64 x86_64
+# To develop/test:
+. ~/anaconda/bin/activate py34 # (for example) to activate desired python
+git clone https://github.com/cottrell/ta-lib.git
+cd ta-lib
+make build
+make develop
+make generate
+make test
+#################
+
 To get started developing on talib, clone the latest code from git and
 install:
 

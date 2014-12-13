@@ -4,6 +4,9 @@ VERSION?=''
 build:
 	python$(VERSION) setup.py build_ext --inplace
 
+develop: build
+	python$(VERSION) setup.py develop
+
 install:
 	python$(VERSION) setup.py install
 
